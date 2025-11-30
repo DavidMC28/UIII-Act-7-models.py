@@ -1,4 +1,4 @@
-framework django : convierte lo siguiente a models.py , unicamnete quiero el modelo  Entidad	Atributos	Tipo de Campo
+framework django : convierte lo siguiente a models.py , unicamente quiero el modelo  Entidad	Atributos	Tipo de Campo
 Nino	id_nino, nombre, apellido, fecha_nacimiento, genero, id_padre_madre_principal, alergias, necesidades_especiales, grupo_asignado, fecha_inscripcion	INT, VARCHAR(100), VARCHAR(100), DATE, CHAR(1), INT, TEXT, TEXT, VARCHAR(50), DATE
 Padre_Madre	id_padre_madre, nombre, apellido, email, telefono_principal, telefono_alternativo, direccion, dni, relacion_con_nino, profesion	INT, VARCHAR(100), VARCHAR(100), VARCHAR(100), VARCHAR(20), VARCHAR(20), VARCHAR(255), VARCHAR(20), VARCHAR(50), VARCHAR(100)
 Personal_Guarderia	id_personal, nombre, apellido, cargo, email, telefono, fecha_contratacion, salario, dni, certificaciones, turno	INT, VARCHAR(100), VARCHAR(100), VARCHAR(50), VARCHAR(100), VARCHAR(20), DATE, DECIMAL(10,2), VARCHAR(20), TEXT, VARCHAR(50)
